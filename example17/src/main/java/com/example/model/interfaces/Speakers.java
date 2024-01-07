@@ -1,4 +1,4 @@
-package com.example.interfaces;
+package com.example.model.interfaces;
 
 import com.example.model.Song;
 

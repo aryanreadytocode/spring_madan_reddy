@@ -1,6 +1,6 @@
 package com.example.implementation;
 
-import com.example.interfaces.Tyres;
+import com.example.model.interfaces.Tyres;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 

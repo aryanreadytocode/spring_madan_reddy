@@ -1,4 +1,4 @@
-package com.example.interfaces;
+package com.example.model.interfaces;
 
 public interface Tyres {
     String rotate();

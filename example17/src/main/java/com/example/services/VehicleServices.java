@@ -1,7 +1,7 @@
 package com.example.services;
 
-import com.example.interfaces.Tyres;
-import com.example.interfaces.Speakers;
+import com.example.model.interfaces.Tyres;
+import com.example.model.interfaces.Speakers;
 import com.example.model.Song;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanDefinition;
