@@ -21,7 +21,7 @@ public class LoggerAspect {
 
     private final Logger logger = Logger.getLogger(LoggerAspect.class.getName());
 
-    @Around("execution(* com.example.sercdvices.*.*(..))")
+    @Around("execution(* com.example.services.*.*(..))")
     public void log(ProceedingJoinPoint joinPoint) throws Throwable {
         logger.info(joinPoint.getSignature().toString() + "method execution start");
         Instant start = Instant.now();
